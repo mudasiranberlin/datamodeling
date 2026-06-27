@@ -19,7 +19,7 @@ const productSchema= new mongoose.Schema({
     },
     stock:{
         default:0,
-        tye
+        type: Number
     }
 
 },{timestamps:true})

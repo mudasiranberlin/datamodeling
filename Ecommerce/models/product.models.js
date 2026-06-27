@@ -13,7 +13,8 @@ const productSchema= new mongoose.Schema({
         type: String,
     },
     price:{
-        type: 
+        type: Number,
+        req
     }
 
 },{timestamps:true})

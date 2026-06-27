@@ -1,3 +1,3 @@
 import mongoose from "mongoose";
 
-const Category = new mongoose.Schema({},{time})
+const Category = new mongoose.Schema({},{timestamps:true})

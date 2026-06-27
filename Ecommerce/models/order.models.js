@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const orderItems
+const orderItemsSchema= new mongoose.
 
 const OrderSchema = new mongoose.Schema({
     OrderPrice:{

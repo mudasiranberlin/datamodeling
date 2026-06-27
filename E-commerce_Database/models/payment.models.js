@@ -29,4 +29,4 @@ const paymentMethodSchema = new mongoose.Schema({
   },
 }, { timestamps: true });
 
-export const payment = mongoose.model("")
+export const ayment = mongoose.model("")

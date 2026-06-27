@@ -3,7 +3,8 @@ import mongoose from "mongoose";
 const SupplierSchema = new mongoose.Schema({
     companyname:{
         type:String,
-        required: tre
+        required: true,
+        
     }
 
 },{timestamps:true});

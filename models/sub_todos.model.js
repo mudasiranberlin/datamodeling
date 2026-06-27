@@ -16,7 +16,9 @@ const Subtodo_Schems = new mongoose.Schema({
         ref:"User"
     },
 
-    subtodos:
+    subtodos:[
+        
+    ]
  
 },{timestamps:true})
 

@@ -10,7 +10,7 @@ const ShippingScheme = new mongoose.Schema({
     phone:{
         type: Number,
         required: true,
-        unique: tre
+        unique: true
     }
 },{timestamps:true})
 

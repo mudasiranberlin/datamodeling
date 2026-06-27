@@ -46,7 +46,6 @@ const addressSchema = new mongoose.Schema({
     },
     paymentMethods:{
         type:[paymentMethods]
-
     }
 
 },{timestamps:true});

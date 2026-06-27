@@ -6,7 +6,9 @@ const Subtodo_Schems = new mongoose.Schema({
         lowercase: true,
         required: true
     },
-    
+    complete:{
+        ty
+    }
  
 },{timestamps:true})
 

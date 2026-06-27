@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const CategoryScheme = new mongoose.Schema({
     categoryname:{
         type: String,
-        
+        low
     }
 
 },{timestamps:true})

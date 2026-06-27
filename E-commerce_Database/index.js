@@ -13,7 +13,8 @@ const SupplierSchema = new mongoose.Schema({
     contactlname:{
         type: String,
         required: true,
-    }
+    },
+    
 
 },{timestamps:true});
 

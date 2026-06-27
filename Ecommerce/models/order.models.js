@@ -2,7 +2,8 @@ import mongoose from "mongoose";
 
 const OrderSchema = new mongoose.Schema({
     OrderPrice:{
-        tye
+        type: String,
+        
     }
 },{timestamps})
 

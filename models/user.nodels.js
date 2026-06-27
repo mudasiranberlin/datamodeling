@@ -12,7 +12,7 @@ const UserSchema= new mongoose.Schema({
         required: true,
     },
     email:{
-        ty
+        type
     }
 
 },{timestamps:true})

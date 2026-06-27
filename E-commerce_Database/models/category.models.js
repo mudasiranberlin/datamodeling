@@ -3,7 +3,8 @@ import mongoose from "mongoose";
 const CategoryScheme = new mongoose.Schema({
     categoryname:{
         type: String,
-        low
+        lowercase: true,
+        
     }
 
 },{timestamps:true})

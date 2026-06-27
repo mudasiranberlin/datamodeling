@@ -8,7 +8,7 @@ const Subtodo_Schems = new mongoose.Schema({
     },
     complete:{
         type: Boolean,
-        default: 
+        default: 0;
     }
  
 },{timestamps:true})

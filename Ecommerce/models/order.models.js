@@ -23,7 +23,7 @@ const OrderSchema = new mongoose.Schema({
         required:true
     },
     orderitems:{
-        type:[orderItemsSchema]
+        type:[orderItemsSchema]. // this one 
 
         // new concept u have to undertand : 3:/// 32:// 45
     }

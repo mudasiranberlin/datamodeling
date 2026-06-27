@@ -20,7 +20,8 @@ const productSchema= new mongoose.Schema({
     stock:{
         default:0,
         type: Number
-    }
+    },
+    
 
 },{timestamps:true})
 

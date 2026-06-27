@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
 const CategoryScheme = new mongoose.Schema({
+    
 
 },{timestamps:true})
 

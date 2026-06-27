@@ -18,7 +18,7 @@ const Subtodo_Schems = new mongoose.Schema({
 
     subtodos:[
         {
-            type: mongoose.Schema.
+            type: mongoose.Schema.Types.ObjectId
         }
     ]
  

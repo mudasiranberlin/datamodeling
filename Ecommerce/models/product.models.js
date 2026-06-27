@@ -27,7 +27,7 @@ const productSchema= new mongoose.Schema({
         required: true
     },
     owner:{
-        type: mongoose.Schema.TypesObjectId,
+        type: mongoose.Schema.Types.ObjectId,
     }
 
 },{timestamps:true})

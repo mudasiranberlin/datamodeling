@@ -15,7 +15,7 @@ const addressSchema = new mongoose.Schema({
     },
     address2:{
         type: String,
-        enum: ["jammu","Kashmir"]
+        enum: ["jammu","Kashmir",""]
     },
 
 },{timestamps:true});

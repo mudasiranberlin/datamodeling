@@ -18,7 +18,7 @@ const productSchema= new mongoose.Schema({
         default: 0;
     },
     stock:{
-        
+        defa
     }
 
 },{timestamps:true})

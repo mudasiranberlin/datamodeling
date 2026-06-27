@@ -24,7 +24,7 @@ const OrderSchema = new mongoose.Schema({
     orderitems:{
         type:[orderItemsSchema]
 
-        // new concept u have to undertand : 3:32:45
+        // new concept u have to undertand : 3:/// 32:45
     }
 },{timestamps})
 

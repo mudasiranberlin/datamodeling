@@ -29,7 +29,14 @@ const OrderSchema = new mongoose.Schema({
 
         // type:[
         {
-            
+           productId:{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "product"
+    },
+    quantity:{
+        type: Number,
+        required: true
+    } 
         }]
 
         // new concept u have to undertand : 3:/// 32:// 45

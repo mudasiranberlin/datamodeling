@@ -4,7 +4,7 @@ const UserSchema= new mongoose.Schema({
 
     // one way to us modeling 
 
-    user:String,
+    username:String,
     email:String,
     password:String
 

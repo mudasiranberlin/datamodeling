@@ -40,7 +40,9 @@ const addressSchema = new mongoose.Schema({
         unique: true,
         lowercase: true
     },
-    
+    url:{
+        
+    }
 
 },{timestamps:true});
 

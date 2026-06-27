@@ -4,7 +4,7 @@ const UserSchema = new mongoose.Schema({
     username:{
         type: String,
         lowercase: true,
-        
+        required: true
     }
 },{timestamps:true});
 

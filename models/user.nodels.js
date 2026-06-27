@@ -4,4 +4,4 @@ const UserSchema= new mongoose.Schema({
 
 },{timestamps:true})
 
-const User = mongoose.
+const User = mongoose.model

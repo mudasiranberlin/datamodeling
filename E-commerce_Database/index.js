@@ -4,7 +4,7 @@ const SupplierSchema = new mongoose.Schema({
     companyname:{
         type:String,
         required: true,
-        uniq
+        unique: true
     }
 
 },{timestamps:true});

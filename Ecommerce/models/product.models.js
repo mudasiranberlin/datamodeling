@@ -1,3 +1,3 @@
 import mongoose from "mongoose";
 
-const productSchema= new m
+const productSchema= new mongoose

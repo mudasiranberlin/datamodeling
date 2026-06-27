@@ -22,7 +22,7 @@ const OrderSchema = new mongoose.Schema({
         required:true
     },
     orderitems:{
-        type:[]
+        type:[orderItemsSchema]
     }
 },{timestamps})
 

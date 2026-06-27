@@ -25,7 +25,9 @@ const addressSchema = new mongoose.Schema({
     },
 
     country:{
-        
+        type: String,
+        enum: ["jammu","Kashmir","Delhi"],
+        default: "jammu"
     }
 
 },{timestamps:true});

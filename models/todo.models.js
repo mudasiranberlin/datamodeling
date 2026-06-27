@@ -1,3 +1,3 @@
 import mongoose from "mongoose";
 
-const TodoSchema= 
+const TodoSchema = new  

@@ -5,7 +5,7 @@ const ShippingScheme = new mongoose.Schema({
         type: String,
         lowercase: true,
         unique: true,
-        required: tre
+        required: true
     }
 },{timestamps:true})
 

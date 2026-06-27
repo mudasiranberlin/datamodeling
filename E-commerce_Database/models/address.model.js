@@ -50,7 +50,9 @@ const addressSchema = new mongoose.Schema({
     discounttype:{
         type: String,
     },
-    
+    logo:{
+        ty
+    }
 },{timestamps:true});
 
 export const address = mongoose.model("address",addressSchema) 

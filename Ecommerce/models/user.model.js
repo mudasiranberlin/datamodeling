@@ -6,7 +6,9 @@ const UserSchema = new mongoose.Schema({
         lowercase: true,
         required: true,
     },
-    
+    email:{
+        
+    }
 },{timestamps:true});
 
 export const User = mongoose.model("User",UserSchema) 

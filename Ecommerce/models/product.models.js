@@ -22,7 +22,7 @@ const productSchema= new mongoose.Schema({
         type: Number
     },
     category:{
-        type: mon
+        type: mongoose.Schema.tye
     }
 
 },{timestamps:true})

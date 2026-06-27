@@ -18,6 +18,8 @@ const UserSchema= new mongoose.Schema({
         required: true
     }
 
+    // Store 
+
 },{timestamps:true})
 
 const User = mongoose.model("User",UserSchema)

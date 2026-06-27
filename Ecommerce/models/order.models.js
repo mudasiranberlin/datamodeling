@@ -4,7 +4,8 @@ const OrderSchema = new mongoose.Schema({
     OrderPrice:{
         type: Number,
         required: true
-    }
+    },
+    
 },{timestamps})
 
 

@@ -2,6 +2,6 @@ import mongoose from "mongoose";
 
 const SupplierSchema = new mongoose.Schema({
 
-},{time});
+},{timestamps});
 
 export const Supplier = mongoose.model("Supplier",SupplierSchema)

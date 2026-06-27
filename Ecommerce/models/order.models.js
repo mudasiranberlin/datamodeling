@@ -4,7 +4,8 @@ const adressSchema = new mongoose.Schema({
     pincode:{
         type: Number,
         required: true
-    }
+    },
+    
 })
 
  /// New concept here 

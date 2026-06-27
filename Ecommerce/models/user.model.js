@@ -2,7 +2,8 @@ import mongoose from "mongoose";
 
 const UserSchema = new mongoose.Schema({
     username:{
-        tye
+        type: String,
+        
     }
 },{timestamps:true});
 

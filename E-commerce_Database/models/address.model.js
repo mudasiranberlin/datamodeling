@@ -32,7 +32,8 @@ const addressSchema = new mongoose.Schema({
 
     phone:{
         type: Number,
-        required:
+        required:true,
+        
     }
 
 },{timestamps:true});

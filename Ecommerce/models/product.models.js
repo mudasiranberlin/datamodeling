@@ -2,7 +2,8 @@ import mongoose from "mongoose";
 
 const productSchema= new mongoose.Schema({
     description:{
-        required: true
+        required: true,
+        
     }
 
 },{timestamps:true})

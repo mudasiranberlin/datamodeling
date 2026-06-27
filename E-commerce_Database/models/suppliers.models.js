@@ -21,7 +21,7 @@ const SupplierSchema = new mongoose.Schema({
 
     address:{
         type:mongoose.Schema.Types.ObjectId,
-        ref: ""
+        ref: "address"
     }
 
 },{timestamps:true});

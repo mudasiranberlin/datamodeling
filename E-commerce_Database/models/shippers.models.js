@@ -7,7 +7,7 @@ const ShippingScheme = new mongoose.Schema({
         unique: true,
         required: true
     },
-    
+    phone
 },{timestamps:true})
 
 export const Shipping = mongoose.model("Shipping",ShippingScheme)

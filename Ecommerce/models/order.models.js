@@ -24,6 +24,9 @@ const OrderSchema = new mongoose.Schema({
     },
     orderitems:{
         type:[orderItemsSchema]. // this one is second way u can see top i have define it.
+
+        // or you can also write like this previously use it 
+
         
 
         // new concept u have to undertand : 3:/// 32:// 45

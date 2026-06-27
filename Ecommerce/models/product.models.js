@@ -21,7 +21,9 @@ const productSchema= new mongoose.Schema({
         default:0,
         type: Number
     },
-    cate
+    category:{
+        
+    }
 
 },{timestamps:true})
 

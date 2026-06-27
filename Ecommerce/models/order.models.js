@@ -1,3 +1,3 @@
 import mongoose from "mongoose";
 
-const OrderSchema = new mongoose.Schema({},{time})
+const OrderSchema = new mongoose.Schema({},{timestamps})

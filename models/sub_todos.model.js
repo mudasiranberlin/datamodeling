@@ -7,7 +7,7 @@ const Subtodo_Schems = new mongoose.Schema({
         required: true
     },
     complete:{
-        type: 
+        type: Str
     }
  
 },{timestamps:true})

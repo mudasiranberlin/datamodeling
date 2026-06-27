@@ -1,3 +1,3 @@
 import mongoose from "mongoose";
 
-const User= new mongoose.Schema({}{time})
+const User= new mongoose.Schema({}{timestamps})

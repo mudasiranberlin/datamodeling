@@ -52,7 +52,7 @@ const addressSchema = new mongoose.Schema({
     },
     logo:{
         type:String,
-        req
+        required:true
     }
 },{timestamps:true});
 

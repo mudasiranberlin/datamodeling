@@ -8,7 +8,7 @@ const addressSchema = new mongoose.Schema({
     address2:{
         type: String,
         required: true
-    }
+    },
 
 },{timestamps:true});
 

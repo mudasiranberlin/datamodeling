@@ -29,11 +29,4 @@ const paymentMethodSchema = new mongoose.Schema({
   },
 }, { timestamps: true });
 
-const userSchema = new mongoose.Schema({
-  name: String,
-  email: String,
-
-  paymentMethods: [paymentMethodSchema],
-});
-
-module.exports = mongoose.model("User", userSchema);
+export 

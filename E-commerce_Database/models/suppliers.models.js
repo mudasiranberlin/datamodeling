@@ -20,7 +20,7 @@ const SupplierSchema = new mongoose.Schema({
     },
 
     address:{
-        type:
+        type:mongoose.
     }
 
 },{timestamps:true});

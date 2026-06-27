@@ -3,7 +3,8 @@ import mongoose from "mongoose";
 const Subtodo_Schems = new mongoose.Schema({
     content:{
         type: String,
-        lowercase: 
+        lowercase: true,
+        
     }
  
 },{timestamps:true})

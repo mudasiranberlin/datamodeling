@@ -4,7 +4,6 @@ const productSchema= new mongoose.Schema({
     description:{
         required: true,
         type: String,
-        
     }
 
 },{timestamps:true})

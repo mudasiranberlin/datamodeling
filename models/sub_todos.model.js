@@ -4,7 +4,7 @@ const Subtodo_Schems = new mongoose.Schema({
     content:{
         type: String,
         lowercase: true,
-        required
+        required: true
     }
  
 },{timestamps:true})

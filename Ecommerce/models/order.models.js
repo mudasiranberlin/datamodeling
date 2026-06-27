@@ -5,7 +5,9 @@ const OrderSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    customer
+    customer:{
+        
+    }
 },{timestamps})
 
 

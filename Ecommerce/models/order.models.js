@@ -25,7 +25,7 @@ const OrderSchema = new mongoose.Schema({
     orderitems:{
         type:[orderItemsSchema]. // this one is second way u can see top i have define it.
 
-        // or you can also write like this previously use it 
+        or you can also write like this previously use it 
         both are valid
 
         type:[

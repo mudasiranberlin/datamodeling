@@ -23,7 +23,7 @@ const OrderSchema = new mongoose.Schema({
         required:true
     },
     orderitems:{
-        type:[orderItemsSchema]. // this one is secon
+        type:[orderItemsSchema]. // this one is second way u can see top 
 
         // new concept u have to undertand : 3:/// 32:// 45
     }

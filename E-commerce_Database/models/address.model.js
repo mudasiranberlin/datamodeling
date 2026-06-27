@@ -23,6 +23,8 @@ const addressSchema = new mongoose.Schema({
         required: true,
         default:0
     },
+
+    
 },{timestamps:true});
 
 export const address = mongoose.model("address",addressSchema) 

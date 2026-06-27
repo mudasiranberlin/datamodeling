@@ -10,7 +10,8 @@ const Subtodo_Schems = new mongoose.Schema({
         required: true
     },
     createdBy:{
-        type: mongoose.Schema.ty
+        type: mongoose.Schema.Types.ObjectId,
+        ref
     }
     
  

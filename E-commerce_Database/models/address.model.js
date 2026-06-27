@@ -18,7 +18,11 @@ const addressSchema = new mongoose.Schema({
         enum: ["jammu","Kashmir","Delhi"],
         default: "jammu"
     },
-
+    address2:{
+        type: String,
+        enum: ["jammu","Kashmir","Delhi"],
+        default: "jammu"
+    },
 },{timestamps:true});
 
 export const address = mongoose.model("address",addressSchema) 

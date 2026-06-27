@@ -6,7 +6,9 @@ const SupplierSchema = new mongoose.Schema({
         required: true,
         unique: true
     },
-    contactfname:
+    contactfname:{
+        
+    }
 
 },{timestamps:true});
 

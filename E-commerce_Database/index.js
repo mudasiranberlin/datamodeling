@@ -7,7 +7,7 @@ const SupplierSchema = new mongoose.Schema({
         unique: true
     },
     contactfname:{
-        ty
+        type
     }
 
 },{timestamps:true});

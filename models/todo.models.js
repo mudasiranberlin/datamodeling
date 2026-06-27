@@ -1,3 +1,3 @@
 import mongoose from "mongoose";
 
-const TodoSchema = new mongoose.Schema({},{time}) 
+const TodoSchema = new mongoose.Schema({},{timestamps:tr}) 

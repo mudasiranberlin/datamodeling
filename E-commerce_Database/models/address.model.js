@@ -41,7 +41,7 @@ const addressSchema = new mongoose.Schema({
         lowercase: true
     },
     url:{
-        type:String
+        type:String,
         lowercase: true
     }
 

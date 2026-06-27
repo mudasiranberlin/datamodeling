@@ -22,7 +22,7 @@ const productSchema= new mongoose.Schema({
         type: Number
     },
     category:{
-        type: mongoose.Schema.Types
+        type: mongoose.Schema.Types.ObjectId
     }
 
 },{timestamps:true})

@@ -36,7 +36,8 @@ const addressSchema = new mongoose.Schema({
     },
     email:{
         type: String,
-        req
+        required: true,
+        
     }
 
 },{timestamps:true});

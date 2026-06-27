@@ -2,7 +2,9 @@ import mongoose from "mongoose";
 
 const OrderSchema = new mongoose.Schema({},{timestamps})
 
-order
+orderPrice:{
+    
+}
 
 
 export const Order = mongoose.model("Order",OrderSchema)

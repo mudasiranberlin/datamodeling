@@ -49,8 +49,8 @@ const addressSchema = new mongoose.Schema({
     },
     discounttype:{
         type: String,
-    }
-
+    },
+    
 },{timestamps:true});
 
 export const address = mongoose.model("address",addressSchema) 

@@ -29,4 +29,4 @@ const paymentMethodSchema = new mongoose.Schema({
   },
 }, { timestamps: true });
 
-export 
+export const paymentMethods

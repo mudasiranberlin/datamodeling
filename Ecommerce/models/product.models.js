@@ -5,6 +5,9 @@ const productSchema= new mongoose.Schema({
         required: true,
         type: String,
     }
+    name:{
+        
+    }
 
 },{timestamps:true})
 

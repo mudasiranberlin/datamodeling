@@ -8,7 +8,7 @@ const ShippingScheme = new mongoose.Schema({
         required: true
     },
     phone:{
-        type
+        type: 
     }
 },{timestamps:true})
 

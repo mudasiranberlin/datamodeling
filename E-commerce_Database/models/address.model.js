@@ -2,7 +2,9 @@ import mongoose from "mongoose";
 
 const addressSchema = new mongoose.Schema({
     address1:{
-        type:{}
+        type:{
+            
+        }
     }
 
 },{timestamps:true});

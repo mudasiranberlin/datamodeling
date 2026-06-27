@@ -23,7 +23,10 @@ const addressSchema = new mongoose.Schema({
         required: true,
         default:0
     },
-    
+
+    country:{
+        
+    }
 
 },{timestamps:true});
 

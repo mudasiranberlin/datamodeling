@@ -26,7 +26,9 @@ const productSchema= new mongoose.Schema({
         ref:"User",
         required: true
     },
-    owner:
+    owner:{
+        
+    }
 
 },{timestamps:true})
 

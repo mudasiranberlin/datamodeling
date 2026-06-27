@@ -2,4 +2,4 @@ import mongoose from "mongoose";
 
 const SupplierSchema = new mongoose.Schema({},{});
 
-export const Supp
+export const Suppli

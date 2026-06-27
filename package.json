@@ -1,0 +1,16 @@
+{
+  "name": "datamodeling",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "mudi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "expresss": "^0.0.0",
+    "mongoose": "^9.7.3"
+  }
+}

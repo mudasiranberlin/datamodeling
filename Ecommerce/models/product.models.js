@@ -28,7 +28,7 @@ const productSchema= new mongoose.Schema({
     },
     owner:{
         type: mongoose.Schema.Types.ObjectId,
-        
+        ref
     }
 
 },{timestamps:true})

@@ -8,7 +8,8 @@ const SupplierSchema = new mongoose.Schema({
     },
     contactfname:{
         type: String,
-        req
+        required: true,
+        
     }
 
 },{timestamps:true});

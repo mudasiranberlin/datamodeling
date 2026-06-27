@@ -20,7 +20,7 @@ const addressSchema = new mongoose.Schema({
     },
     postalcode:{
         type: Number,
-        req
+        required: true
     },
 },{timestamps:true});
 

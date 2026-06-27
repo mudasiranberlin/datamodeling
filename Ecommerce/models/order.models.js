@@ -59,7 +59,6 @@ const OrderSchema = new mongoose.Schema({
     },
 
     address:{
-
     }
 },{timestamps})
 

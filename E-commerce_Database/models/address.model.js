@@ -44,7 +44,7 @@ const addressSchema = new mongoose.Schema({
         type:String,
         lowercase: true
     },
-    
+    payments
 
 },{timestamps:true});
 

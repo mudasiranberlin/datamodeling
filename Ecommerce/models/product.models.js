@@ -11,6 +11,9 @@ const productSchema= new mongoose.Schema({
     },
     productImages:{
         type: String,
+    },
+    price:{
+        tye
     }
 
 },{timestamps:true})

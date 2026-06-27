@@ -23,6 +23,8 @@ const OrderSchema = new mongoose.Schema({
     },
     orderitems:{
         type:[orderItemsSchema]
+
+        // new concept u have to undertand : 
     }
 },{timestamps})
 

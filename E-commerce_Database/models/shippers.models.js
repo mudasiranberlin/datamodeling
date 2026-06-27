@@ -6,7 +6,8 @@ const ShippingScheme = new mongoose.Schema({
         lowercase: true,
         unique: true,
         required: true
-    }
+    },
+    
 },{timestamps:true})
 
 export const Shipping = mongoose.model("Shipping",ShippingScheme)

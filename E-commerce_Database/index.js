@@ -1,7 +1,9 @@
 import mongoose from "mongoose";
 
 const SupplierSchema = new mongoose.Schema({
-    com
+    companyname:{
+        tye
+    }
 
 },{timestamps:true});
 

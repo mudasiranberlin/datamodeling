@@ -14,7 +14,7 @@ const SupplierSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    contactti:{
+    contacttitle:{
         type: String,
         required: true,
     }

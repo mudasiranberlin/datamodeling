@@ -10,7 +10,7 @@ const SupplierSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    contactfname:{
+    contactlname:{
         type: String,
         required: true,
     }

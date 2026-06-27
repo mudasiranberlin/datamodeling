@@ -3,8 +3,7 @@ import mongoose from "mongoose";
 const OrderSchema = new mongoose.Schema({
     OrderPrice:{
         type: Number,
-        required: true
-
+        required: tru
     }
 },{timestamps})
 

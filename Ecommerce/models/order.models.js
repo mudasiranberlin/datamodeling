@@ -6,7 +6,8 @@ const adressSchema = new mongoose.Schema({
         required: true
     },
     state:{
-        type: String
+        type: String,
+        
     }
 })
 

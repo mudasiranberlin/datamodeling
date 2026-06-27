@@ -42,7 +42,7 @@ const addressSchema = new mongoose.Schema({
     },
     url:{
         type:String
-        lowercase: tre
+        lowercase: true
     }
 
 },{timestamps:true});

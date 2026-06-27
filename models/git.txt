@@ -10,3 +10,8 @@ git push -u origin main
 git remote add origin https://github.com/mudasiranberlin/datamodeling.git
 git branch -M main
 git push -u origin main
+
+
+git add .
+git commit -m "my second"
+git push -u origin main

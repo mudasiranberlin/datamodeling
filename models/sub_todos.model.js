@@ -11,7 +11,7 @@ const Subtodo_Schems = new mongoose.Schema({
         default: false
     }, 
 
-    createdBY
+    createdBy
  
 },{timestamps:true})
 

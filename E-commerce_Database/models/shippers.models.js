@@ -3,7 +3,8 @@ import mongoose from "mongoose";
 const ShippingScheme = new mongoose.Schema({
     companyname:{
         type: String,
-        low
+        lowercase: true,
+        
     }
 },{timestamps:true})
 

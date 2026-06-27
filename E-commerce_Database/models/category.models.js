@@ -4,4 +4,4 @@ const Category = new mongoose.Schema({
 
 },{timestamps:true})
 
-export const Category
+export const Category = 

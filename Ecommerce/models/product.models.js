@@ -24,7 +24,7 @@ const productSchema= new mongoose.Schema({
     category:{
         type: mongoose.Schema.Types.ObjectId,
         ref:"User",
-        req
+        required: true
     }
 
 },{timestamps:true})

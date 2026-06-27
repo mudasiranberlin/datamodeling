@@ -9,7 +9,7 @@ const UserSchema = new mongoose.Schema({
     email:{
         type: String,
         lowercase: true,
-        req
+        required: true
     }
 },{timestamps:true});
 

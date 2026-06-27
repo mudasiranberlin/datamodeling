@@ -1,4 +1,4 @@
-import { request } from "express";
+
 import mongoose from "mongoose";
 
 const SupplierSchema = new mongoose.Schema({

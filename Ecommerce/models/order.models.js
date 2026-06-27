@@ -7,7 +7,7 @@ const orderItemsSchema= new mongoose.Schema({
     },
     quantity:{
         type: Number,
-        ref:""
+        req
     }
 })
 

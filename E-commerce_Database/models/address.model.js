@@ -30,7 +30,7 @@ const addressSchema = new mongoose.Schema({
         default: "jammu"
     },
 
-    
+    phone:
 
 },{timestamps:true});
 

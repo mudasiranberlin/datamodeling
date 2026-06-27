@@ -2,4 +2,4 @@ import mongoose from "mongoose";
 
 const addressSchema = new mongoose.Schema({},{});
 
-export const address = mongoose.model("") 
+export const address = mongoose.model("add") 

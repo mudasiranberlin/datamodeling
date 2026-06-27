@@ -27,7 +27,7 @@ const productSchema= new mongoose.Schema({
         required: true
     },
     owner:{
-        
+        ty
     }
 
 },{timestamps:true})

@@ -1,5 +1,7 @@
 import mongoose from "mongoose";
 
+const order
+
 const OrderSchema = new mongoose.Schema({
     OrderPrice:{
         type: Number,

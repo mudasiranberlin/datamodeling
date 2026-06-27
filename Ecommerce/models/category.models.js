@@ -2,4 +2,4 @@ import mongoose from "mongoose";
 
 const categorySchema = new mongoose.Schema({},{timestamps:true}) 
 
-export const User = mongoose.model("User",categorySchema)
+export const category = mongoose.model("User",categorySchema)

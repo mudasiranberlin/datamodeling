@@ -18,7 +18,6 @@ const CategoryScheme = new mongoose.Schema({
     },
     active:{
         type: Boolean,
-        lowercase: true,
         required: true
     },
 

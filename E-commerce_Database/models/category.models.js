@@ -1,3 +1,3 @@
 import mongoose from "mongoose";
 
-const Category
+const Category = new mongoose

@@ -20,8 +20,7 @@ const addressSchema = new mongoose.Schema({
     },
     postalcode:{
         type: Number,
-        enum: ["jammu","Kashmir","Delhi"],
-        default: "jammu"
+        
     },
 },{timestamps:true});
 

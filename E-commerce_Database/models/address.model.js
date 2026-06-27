@@ -5,6 +5,10 @@ const addressSchema = new mongoose.Schema({
         type: String,
         required: true
     }
+    address1:{
+        type: String,
+        required: true
+    }
 
 },{timestamps:true});
 

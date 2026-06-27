@@ -2,7 +2,8 @@ import mongoose from "mongoose";
 
 const ShippingScheme = new mongoose.Schema({
     companyname:{
-        tye
+        type: String,
+        
     }
 },{timestamps:true})
 

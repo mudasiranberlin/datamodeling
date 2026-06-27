@@ -4,4 +4,4 @@ const TodoSchema = new mongoose.Schema({
 
 },{timestamps:true}) 
 
-export const User = mongoose.model("User",TodoSchema)
+export const User = mongoose.model("User",TodoSchema);

@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const adressSchema = new mongoose.Schema({
     pincode:{
-        
+        tye
     }
 })
 

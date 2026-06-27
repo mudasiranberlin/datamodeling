@@ -21,7 +21,7 @@ const Subtodo_Schems = new mongoose.Schema({
             type: mongoose.Schema.Types.ObjectId,
             ref: "User"
         }
-    ] //
+    ] // Array of Sub Todos 
  
 },{timestamps:true})
 

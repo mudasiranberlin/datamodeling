@@ -16,6 +16,7 @@ const CategoryScheme = new mongoose.Schema({
         lowercase: true,
         required: true
     },
+    
 
 
 

@@ -10,7 +10,8 @@ const adressSchema = new mongoose.Schema({
         required: true
     },
     streetaddress:{
-        type: String
+        type: String,
+        
     }
 })
 

@@ -18,7 +18,7 @@ const addressSchema = new mongoose.Schema({
         enum: ["jammu","Kashmir","Delhi"],
         default: "jammu"
     },
-    address2:{
+    postalcode:{
         type: String,
         enum: ["jammu","Kashmir","Delhi"],
         default: "jammu"

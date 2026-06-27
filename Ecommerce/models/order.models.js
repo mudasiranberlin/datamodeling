@@ -6,7 +6,7 @@ const OrderSchema = new mongoose.Schema({
         required: true
     },
     customer:{
-        type: mongoose.model
+        type: mongoose.
     }
 },{timestamps})
 

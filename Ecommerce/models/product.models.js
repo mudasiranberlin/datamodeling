@@ -13,7 +13,7 @@ const productSchema= new mongoose.Schema({
         type: String,
     },
     price:{
-        tye
+        type: 
     }
 
 },{timestamps:true})

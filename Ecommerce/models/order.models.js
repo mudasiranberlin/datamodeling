@@ -27,7 +27,10 @@ const OrderSchema = new mongoose.Schema({
 
         // or you can also write like this previously use it 
 
-        // type:[]
+        // type:[
+        {
+            
+        }]
 
         // new concept u have to undertand : 3:/// 32:// 45
     }

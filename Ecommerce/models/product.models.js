@@ -21,7 +21,7 @@ const productSchema= new mongoose.Schema({
         default:0,
         type: Number
     },
-    
+    cat
 
 },{timestamps:true})
 

@@ -51,7 +51,7 @@ const addressSchema = new mongoose.Schema({
         type: String,
     },
     logo:{
-        ty
+        type:
     }
 },{timestamps:true});
 

@@ -5,7 +5,9 @@ const adressSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    state:
+    state:{
+        
+    }
 })
 
  /// New concept here 

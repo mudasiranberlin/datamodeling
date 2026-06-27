@@ -5,7 +5,7 @@ const addressSchema = new mongoose.Schema({
         type: String,
         required: true
     }
-    address1:{
+    address2:{
         type: String,
         required: true
     }

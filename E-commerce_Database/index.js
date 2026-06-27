@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const SupplierSchema = new mongoose.Schema({
-    comap
+    com
 
 },{timestamps:true});
 

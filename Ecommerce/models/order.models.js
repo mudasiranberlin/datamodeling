@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const OrderSchema = new mongoose.Schema({},{timestamps})
 
 OrderPrice:{
-    type: 
+    type: String
 }
 
 

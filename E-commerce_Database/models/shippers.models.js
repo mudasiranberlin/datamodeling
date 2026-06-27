@@ -4,7 +4,7 @@ const ShippingScheme = new mongoose.Schema({
     companyname:{
         type: String,
         lowercase: true,
-        
+        uni
     }
 },{timestamps:true})
 

@@ -49,7 +49,6 @@ const addressSchema = new mongoose.Schema({
     },
     discounttype:{
         type: String,
-        
     }
 
 },{timestamps:true});

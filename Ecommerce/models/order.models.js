@@ -7,7 +7,7 @@ const adressSchema = new mongoose.Schema({
     },
     state:{
         type: String,
-        req
+        required
     }
 })
 

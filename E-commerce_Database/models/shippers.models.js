@@ -1,3 +1,3 @@
 import mongoose from "mongoose";
 
-const ShippingScheme = new mongoose.Schema 
+const ShippingScheme = new mongoose.Schema("") 

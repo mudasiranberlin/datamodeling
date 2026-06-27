@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
 
-const User = new mongoose.Schema({},{timestamps:true});
+const UserSchema = new mongoose.Schema({},{timestamps:true});
 
 export const User

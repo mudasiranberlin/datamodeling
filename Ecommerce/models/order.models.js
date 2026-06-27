@@ -8,7 +8,7 @@ const OrderSchema = new mongoose.Schema({
     customer:{
         type: mongoose.Schema.Types.ObjectId,
         ref:"User",
-        required:
+        required:true
     }
 },{timestamps})
 

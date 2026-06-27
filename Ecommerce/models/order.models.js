@@ -27,7 +27,7 @@ const OrderSchema = new mongoose.Schema({
 
         // or you can also write like this previously use it 
 
-        // type:[
+        type:[
         {
            productId:{
         type: mongoose.Schema.Types.ObjectId,

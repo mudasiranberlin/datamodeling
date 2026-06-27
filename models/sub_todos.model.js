@@ -2,7 +2,8 @@ import mongoose from "mongoose";
 
 const Subtodo_Schems = new mongoose.Schema({
     content:{
-        type: 
+        type: String,
+        
     }
     
  

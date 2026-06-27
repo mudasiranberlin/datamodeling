@@ -14,7 +14,10 @@ const SupplierSchema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    
+    contactfname:{
+        type: String,
+        required: true,
+    }
 
 },{timestamps:true});
 

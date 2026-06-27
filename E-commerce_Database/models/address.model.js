@@ -21,7 +21,7 @@ const addressSchema = new mongoose.Schema({
     postalcode:{
         type: Number,
         required: true,
-        de
+        default
     },
 },{timestamps:true});
 

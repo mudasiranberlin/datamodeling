@@ -10,6 +10,7 @@ const OrderSchema = new mongoose.Schema({
         ref:"User",
         required:true
     }
+    order
 },{timestamps})
 
 

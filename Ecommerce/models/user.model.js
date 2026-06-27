@@ -8,7 +8,7 @@ const UserSchema = new mongoose.Schema({
     },
     email:{
         type: String,
-        lowercase: 
+        lowercase: true
     }
 },{timestamps:true});
 

@@ -56,6 +56,10 @@ const OrderdetailsSchema = new mongoose.Schema({
         type: Date.now,
         default: null
     },
+    deliveryDate: {
+    type: Date,
+    default: null,
+  },
         }
     ]
 

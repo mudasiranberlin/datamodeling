@@ -40,10 +40,7 @@ const OrderdetailsSchema = new mongoose.Schema({
         enum : ["AMAZON","FLIPKART","MEESHO"],
         default:"AMAZON"
     },
-    shipdate:{
-        type: Date,
-        default: null
-    },
+    
     orderdetails:[
         {
             status:{

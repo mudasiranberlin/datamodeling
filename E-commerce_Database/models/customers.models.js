@@ -4,7 +4,8 @@ const customerSchema = new mongoose.Schema({
     firstName:{
         type: String,
         lowercase: true,
-        required: true
+        required: true,
+        unique: true
     }
 
 },{timestamps:true})

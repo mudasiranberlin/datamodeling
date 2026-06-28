@@ -5,6 +5,7 @@ const OrderdetailsSchema = new mongoose.Schema({
         type: Number,
         unique: true,
         lowercase: true
+        required: true
     },
     price:{
         type: Number,

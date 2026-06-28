@@ -6,7 +6,9 @@ const OrderdetailsSchema = new mongoose.Schema({
         unique: true,
         lowercase: true
     },
-    
+    Price:{
+        
+    }
 
 },{timestamps:true})
 

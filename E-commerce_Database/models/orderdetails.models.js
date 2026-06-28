@@ -32,7 +32,7 @@ const OrderdetailsSchema = new mongoose.Schema({
     },
     color:{
         type: String,
-        enum: ["RED","BLUE"]
+        enum: ["RED","BLUE","GREEN"]
     }
 
 },{timestamps:true})

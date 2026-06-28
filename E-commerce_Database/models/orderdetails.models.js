@@ -23,7 +23,7 @@ const OrderdetailsSchema = new mongoose.Schema({
 
     total:{
         type: Number,
-        req
+        required: true
     }
 
 },{timestamps:true})

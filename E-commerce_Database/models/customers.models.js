@@ -23,7 +23,7 @@ const customerSchema = new mongoose.Schema({
         ref:"address"
     },
     payment:{
-        type: mongoose.Schema.
+        type: mongoose.Schema.ty
     }
 
 },{timestamps:true})

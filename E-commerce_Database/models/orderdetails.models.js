@@ -13,6 +13,7 @@ const OrderdetailsSchema = new mongoose.Schema({
         required: true
     },
     quantity:{
+        type: Number,
         
     }
 

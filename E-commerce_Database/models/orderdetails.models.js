@@ -37,7 +37,7 @@ const OrderdetailsSchema = new mongoose.Schema({
     },
     fulfilled:{
         type : String,
-        enum : ["AMAZON","FLIPKART",""]
+        enum : ["AMAZON","FLIPKART","M"]
     }
 
 },{timestamps:true})

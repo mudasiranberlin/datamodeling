@@ -21,7 +21,7 @@ const OrderdetailsSchema = new mongoose.Schema({
         unique: true
     },
 
-    
+    total
 
 },{timestamps:true})
 

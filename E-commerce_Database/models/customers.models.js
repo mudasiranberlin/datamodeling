@@ -7,7 +7,9 @@ const customerSchema = new mongoose.Schema({
         required: true,
         unique: true
     },
-    
+    LastName:{
+        
+    }
 
 },{timestamps:true})
 

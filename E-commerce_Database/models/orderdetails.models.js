@@ -45,7 +45,9 @@ const OrderdetailsSchema = new mongoose.Schema({
         default: null
     },
     orderdetails:[
-        
+        {
+            
+        }
     ]
 
 },{timestamps:true})

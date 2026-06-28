@@ -63,7 +63,7 @@ const OrderdetailsSchema = new mongoose.Schema({
         }
     ],
     billdate:{
-        type: Date
+        type: Date,
     }
 
 }, { timestamps: true })

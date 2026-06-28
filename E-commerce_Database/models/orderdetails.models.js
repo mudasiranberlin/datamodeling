@@ -47,7 +47,8 @@ const OrderdetailsSchema = new mongoose.Schema({
     orderdetails:[
         {
             type:String,
-            enum:["PENDING","CANCELLED","DELIVRED"]
+            enum:["PENDING","CANCELLED","DELIVRED"],
+            
         }
     ]
 

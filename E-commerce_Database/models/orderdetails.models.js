@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const OrderdetailsSchema = new mongoose.Schema({
-    product
+    
 
 },{timestamps:true})
 

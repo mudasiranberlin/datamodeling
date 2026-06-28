@@ -31,7 +31,7 @@ const OrderdetailsSchema = new mongoose.Schema({
         required: true
     },
     color:{
-        type:str
+        type:String
     }
 
 },{timestamps:true})

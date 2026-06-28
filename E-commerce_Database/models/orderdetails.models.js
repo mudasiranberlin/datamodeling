@@ -14,7 +14,7 @@ const OrderdetailsSchema = new mongoose.Schema({
     },
     quantity:{
         type: Number,
-        unique
+        unique:
     }
 
 },{timestamps:true})

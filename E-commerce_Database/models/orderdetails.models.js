@@ -30,7 +30,9 @@ const OrderdetailsSchema = new mongoose.Schema({
         enum: ["XXL","XL","X","L","M","S"],
         required: true
     },
-    
+    color:{
+        type:
+    }
 
 },{timestamps:true})
 

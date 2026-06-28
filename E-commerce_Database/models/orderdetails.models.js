@@ -27,7 +27,7 @@ const OrderdetailsSchema = new mongoose.Schema({
     },
     size:{
         type: String,
-        enu
+        enum
     }
 
 },{timestamps:true})

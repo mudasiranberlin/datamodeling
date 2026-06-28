@@ -7,7 +7,8 @@ const OrderdetailsSchema = new mongoose.Schema({
         lowercase: true
     },
     price:{
-        type: NU
+        type: Number,
+        
 
     }
 

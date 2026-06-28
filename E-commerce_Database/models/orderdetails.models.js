@@ -16,7 +16,9 @@ const OrderdetailsSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    discount
+    discount:{
+        tyrp
+    }
 
 },{timestamps:true})
 

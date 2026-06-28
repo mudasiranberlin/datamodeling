@@ -32,7 +32,8 @@ const OrderdetailsSchema = new mongoose.Schema({
     },
     color:{
         type: String,
-        enum: ["RED","BLUE","GREEN","RED"]
+        enum: ["RED","BLUE","GREEN","RED"],
+        default:"RED"
     }
 
 },{timestamps:true})

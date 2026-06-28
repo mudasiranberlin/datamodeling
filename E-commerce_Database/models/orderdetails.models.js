@@ -41,7 +41,8 @@ const OrderdetailsSchema = new mongoose.Schema({
         default:"AMAZON"
     },
     shipdate:{
-        type: Date
+        type: Date;
+        
     }
 
 },{timestamps:true})

@@ -8,7 +8,8 @@ const OrderdetailsSchema = new mongoose.Schema({
     },
     price:{
         type: Number,
-        unique: true
+        unique: true,
+        
 
     }
 

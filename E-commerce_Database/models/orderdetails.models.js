@@ -46,7 +46,8 @@ const OrderdetailsSchema = new mongoose.Schema({
     },
     orderdetails:[
         {
-            type:String
+            type:String,
+            
         }
     ]
 

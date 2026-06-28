@@ -16,7 +16,7 @@ const OrderdetailsSchema = new mongoose.Schema({
         type: Number,
         required: true
     },
-    disccount
+    discount
 
 },{timestamps:true})
 

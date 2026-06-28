@@ -24,7 +24,7 @@ const customerSchema = new mongoose.Schema({
     },
     payment:{
         type: mongoose.Schema.type.ObjectId,
-        ref:"pa"
+        ref:"payment"
     }
 
 },{timestamps:true})

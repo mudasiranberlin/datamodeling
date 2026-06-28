@@ -19,7 +19,7 @@ const customerSchema = new mongoose.Schema({
         required: true,
     },
     address:{
-        type: mongoose.Schema.Types
+        type: mongoose.Schema.Types.
     }
 
 },{timestamps:true})

@@ -42,7 +42,7 @@ const OrderdetailsSchema = new mongoose.Schema({
     },
     shipdate:{
         type: Date,
-        
+        de
 
 
     }

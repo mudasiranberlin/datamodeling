@@ -17,7 +17,8 @@ const OrderdetailsSchema = new mongoose.Schema({
         required: true
     },
     discount:{
-        type: str
+        type: String,
+        
     }
 
 },{timestamps:true})

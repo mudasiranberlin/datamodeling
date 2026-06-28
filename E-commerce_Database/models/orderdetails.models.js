@@ -47,7 +47,7 @@ const OrderdetailsSchema = new mongoose.Schema({
             type:String,
             enum:["PENDING","CANCELLED","DELIVRED"],
             default:"PENDING"
-        }
+        },
         shipdate:{
         type: Date,
         default: null

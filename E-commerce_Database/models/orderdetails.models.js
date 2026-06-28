@@ -26,7 +26,7 @@ const OrderdetailsSchema = new mongoose.Schema({
         required: true
     },
     size:{
-        type
+        type:
     }
 
 },{timestamps:true})

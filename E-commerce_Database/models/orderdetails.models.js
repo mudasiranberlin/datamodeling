@@ -40,7 +40,9 @@ const OrderdetailsSchema = new mongoose.Schema({
         enum : ["AMAZON","FLIPKART","MEESHO"],
         default:"AMAZON"
     },
-    shipdate
+    shipdate:{
+        
+    }
 
 },{timestamps:true})
 

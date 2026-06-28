@@ -4,7 +4,7 @@ const OrderdetailsSchema = new mongoose.Schema({
     ordernumber:{
         type: Number,
         unique: true,
-        lowercase
+        lowercase: true
     }
 
 },{timestamps:true})

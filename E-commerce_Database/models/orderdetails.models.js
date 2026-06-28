@@ -1,7 +1,9 @@
 import mongoose from "mongoose";
 
 const OrderdetailsSchema = new mongoose.Schema({
-    ordernumber:
+    ordernumber:{
+        
+    }
 
 },{timestamps:true})
 

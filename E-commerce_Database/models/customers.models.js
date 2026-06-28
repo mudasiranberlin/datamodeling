@@ -4,4 +4,4 @@ const customerSchema = new mongoose.Schema({
 
 },{timestamps:true})
 
-export const Customer = mongoose.model("")
+export const Customer = mongoose.model("C")

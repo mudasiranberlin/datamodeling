@@ -49,7 +49,7 @@ const OrderdetailsSchema = new mongoose.Schema({
             default:"PENDING"
         },
         shipdate:{
-        type: Date.,
+        type: Date.now,
         default: null
     },
         }

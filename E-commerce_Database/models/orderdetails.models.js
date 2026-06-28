@@ -14,7 +14,7 @@ const OrderdetailsSchema = new mongoose.Schema({
     },
     quantity:{
         type: Number,
-        req
+        required: true
     }
 
 },{timestamps:true})

@@ -24,7 +24,8 @@ const OrderdetailsSchema = new mongoose.Schema({
     total:{
         type: Number,
         required: true
-    }
+    },
+    
 
 },{timestamps:true})
 

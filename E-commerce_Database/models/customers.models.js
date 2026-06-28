@@ -4,7 +4,7 @@ const customerSchema = new mongoose.Schema({
     firstName:{
         type: String,
         lowercase: true,
-        requi
+        required: true
     }
 
 },{timestamps:true})

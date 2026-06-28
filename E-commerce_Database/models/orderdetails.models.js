@@ -27,7 +27,7 @@ const OrderdetailsSchema = new mongoose.Schema({
     },
     size:{
         type: String,
-        enum: ["XXL","XL","X",]
+        enum: ["XXL","XL","X",""]
     }
 
 },{timestamps:true})

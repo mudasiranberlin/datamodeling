@@ -22,7 +22,8 @@ const OrderdetailsSchema = new mongoose.Schema({
     },
 
     total:{
-        type: 
+        type: Number,
+        
     }
 
 },{timestamps:true})

@@ -45,7 +45,11 @@ const OrderdetailsSchema = new mongoose.Schema({
         default: null
     },
     orderdetails:[
-        status:
+        status:{
+            type:String,
+            enum:["PENDING","CANCELLED","DELIVRED"],
+            default:"PENDING"
+        }
     ]
 
 },{timestamps:true})

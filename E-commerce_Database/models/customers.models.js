@@ -9,7 +9,7 @@ const customerSchema = new mongoose.Schema({
     },
     LastName:{
         type: String,
-        
+        lowercase: 
     }
 
 },{timestamps:true})

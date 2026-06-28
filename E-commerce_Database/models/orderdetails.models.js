@@ -38,6 +38,7 @@ const OrderdetailsSchema = new mongoose.Schema({
     fulfilled:{
         type : String,
         enum : ["AMAZON","FLIPKART","MEESHO"],
+        default:""
     }
 
 },{timestamps:true})

@@ -36,7 +36,7 @@ const OrderdetailsSchema = new mongoose.Schema({
         default:"RED"
     },
     fulfilled:{
-        
+        type : 
     }
 
 },{timestamps:true})

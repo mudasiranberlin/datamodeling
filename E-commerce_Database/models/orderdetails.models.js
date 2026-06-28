@@ -12,7 +12,9 @@ const OrderdetailsSchema = new mongoose.Schema({
         unique: true,
         required: true
     },
-    quantity
+    quantity:{
+        
+    }
 
 },{timestamps:true})
 

@@ -4,4 +4,4 @@ const customerSchema = new mongoose.Schema({
 
 },{timestamps:true})
 
-export Customer
+export const Customer

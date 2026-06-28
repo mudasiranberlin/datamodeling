@@ -16,7 +16,8 @@ const customerSchema = new mongoose.Schema({
     class:{
         type: String,
         lowercase: true,
-        req
+        required: true,
+        
     }
 
 },{timestamps:true})

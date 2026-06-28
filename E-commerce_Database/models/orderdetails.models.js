@@ -4,4 +4,4 @@ const OrderdetailsSchema = new mongoose.Schema({
 
 },{timestamps:true})
 
-export const Order
+export const Order = 

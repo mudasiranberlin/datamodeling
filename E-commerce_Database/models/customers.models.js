@@ -13,7 +13,10 @@ const customerSchema = new mongoose.Schema({
         required: true,
         unique: true
     },
-    
+    class:{
+        type: String,
+        
+    }
 
 },{timestamps:true})
 

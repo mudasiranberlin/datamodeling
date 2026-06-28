@@ -1,68 +1,68 @@
 import mongoose from "mongoose";
 
 const OrderdetailsSchema = new mongoose.Schema({
-    ordernumber:{
+    ordernumber: {
         type: Number,
         unique: true,
         lowercase: true
         required: true
     },
-    price:{
+    price: {
         type: Number,
         unique: true,
         required: true
     },
-    quantity:{
+    quantity: {
         type: Number,
         required: true
     },
-    discount:{
+    discount: {
         type: String,
         unique: true
     },
 
-    total:{
+    total: {
         type: Number,
         required: true
     },
-    size:{
+    size: {
         type: String,
-        enum: ["XXL","XL","X","L","M","S"],
+        enum: ["XXL", "XL", "X", "L", "M", "S"],
         required: true
     },
-    color:{
+    color: {
         type: String,
-        enum: ["RED","BLUE","GREEN","RED"],
-        default:"RED"
+        enum: ["RED", "BLUE", "GREEN", "RED"],
+        default: "RED"
     },
-    fulfilled:{
-        type : String,
-        enum : ["AMAZON","FLIPKART","MEESHO"],
-        default:"AMAZON"
+    fulfilled: {
+        type: String,
+        enum: ["AMAZON", "FLIPKART", "MEESHO"],
+        default: "AMAZON"
     },
-    
-    orderdetails:[
+
+    orderdetails: [
         {
-            status:{
-            type:String,
-            enum:["PENDING","CANCELLED","DELIVRED"],
-            default:"PENDING"
-        },
-        shipdate:{
-        type: Date,
-        default: null
-    },
-    orderdate:{
-        type: Date.now,
-        default: null
-    },
-    deliveryDate: {
-    type: Date,
-    default: null,
-  },
+            status: {
+                type: String,
+                enum: ["PENDING", "CANCELLED", "DELIVRED"],
+                default: "PENDING"
+            },
+            shipdate: {
+                type: Date,
+                default: null
+            },
+            orderdate: {
+                type: Date.now,
+                default: null
+            },
+            deliveryDate: {
+                type: Date,
+                default: null,
+            },
         }
     ]
 
-},{timestamps:true})
+}, { timestamps: true })
 
 export const Order = mongoose.model("Order", OrderdetailsSchema)
